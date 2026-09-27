@@ -1,0 +1,95 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 195px;
+}
+
+.products-title {
+  font: 500 64px/normal RobotoSlabM;
+  color: var(--color-green-dark);
+  margin-bottom: 70px;
+}
+
+.products-categories {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 80px;
+}
+
+.products-categories-category {
+  position: relative;
+  font: 500 22px/normal PoppinsM;
+  color: #454545;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.products-categories-category-active::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  background-color: var(--color-green-dark);
+  width: 100%;
+  height: 1px;
+  border: 2px;
+}
+
+.products-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 318px);
+  gap: 35px;
+}
+
+.products-cards-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  transition: transform var(--animation);
+}
+
+.products-cards-card:hover {
+  transform: scale(1.05);
+}
+
+.products-cards-card-img {
+  width: 318px;
+  height: 378px;
+  background-color: #EAEBF0;
+  margin-bottom: 36px;
+}
+
+.products-cards-card-title {
+  font: 600 22px/normal PoppinsSB;
+  color: #373737;
+  margin-bottom: 8px;
+}
+
+.products-cards-card-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 229px;
+  width: 100%;
+}
+
+.products-cards-card-numbers-price {
+  font: 500 22px/normal PoppinsM;
+  color: #454545;
+}
+
+.products-cards-card-numbers-rating {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  color: #454545;
+  font: 500 22px/normal PoppinsM;
+}
+
+.line {
+  width: .5px;
+  height: 27px;
+  background-color: black;
+}

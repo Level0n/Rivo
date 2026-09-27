@@ -1,0 +1,54 @@
+.designer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 249px;
+}
+
+.designer-title {
+  font: 500 50px/normal RobotoSlabM;
+  color: var(--color-green-dark);
+  margin-bottom: 51px;
+}
+
+.designer-subtitle {
+  font: 500 22px/normal PoppinsM;
+  color: var(--color-green-dark);
+  margin-bottom: 72px;
+}
+
+.designer-blocks {
+  display: flex;
+  gap: 44px;
+  max-width: 1377px;
+  width: 100%;
+}
+
+.designer-blocks-block {
+  text-align: center;
+  text-decoration: none;
+  transition: transform var(--animation);
+}
+
+.designer-blocks-block:hover {
+  transform: scale(1.05);
+}
+
+.designer-blocks-block-img {
+  width: 430px;
+  height: 566px;
+  background-color: #D3E2D7;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.designer-blocks-block-title {
+  font: 600 30px/normal PoppinsSB;
+  color: #373737;
+  margin-bottom: 5px;
+}
+
+.designer-blocks-block-subtitle {
+  font: 500 22px/143% PoppinsM;
+  color: #373737;
+}

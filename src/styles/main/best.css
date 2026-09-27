@@ -1,0 +1,87 @@
+.best {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 185px;
+}
+
+.best-title {
+  font: 500 64px/normal RobotoSlabM;
+  color: var(--color-green-dark);
+  margin-bottom: 37px;
+}
+
+.best-subtitle {
+  font: 500 22px/normal PoppinsM;
+  color: var(--color-green-dark);
+  margin-bottom: 80px;
+}
+
+.best-cards {
+  display: flex;
+  gap: 43px;
+  margin-bottom: 80px;
+}
+
+.best-cards-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  transition: transform var(--animation);
+}
+
+.best-cards-card:hover {
+  transform: scale(1.05);
+}
+
+.best-cards-card:nth-of-type(1) > img {
+  background-color: #93B9A2;
+}
+
+.best-cards-card:nth-of-type(2) > img {
+  background-color: #A9D4BA;
+}
+
+.best-cards-card:nth-of-type(3) > img {
+  background-color: #CADCD0;
+}
+
+.best-cards-card-img {
+  width: 430px;
+  height: 566px;
+  margin-bottom: 51px;
+}
+
+.best-cards-card-title {
+  font: 600 22px/normal PoppinsSB;
+  color: #373737;
+  margin-bottom: 11px;
+}
+
+.best-cards-card-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 229px;
+  width: 100%;
+}
+
+.best-cards-card-numbers-price {
+  font: 500 22px/normal PoppinsM;
+  color: #454545;
+}
+
+.best-cards-card-numbers-rating {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  color: #454545;
+  font: 500 22px/normal PoppinsM;
+}
+
+.line {
+  width: .5px;
+  height: 27px;
+  background-color: black;
+}

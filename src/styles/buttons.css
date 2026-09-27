@@ -1,0 +1,67 @@
+.header-button,
+.selling-button {
+  cursor: pointer;
+  font: 500 20px/100% PoppinsM;
+  color: var(--color-green-dark);
+  background-color: transparent;
+  border: 2px solid var(--color-green-dark);
+  border-radius: 3px;
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.header-button:hover,
+.selling-button:hover {
+  background-color: var(--color-green-dark);
+  color: #FFFFFF;
+}
+
+.header-bottom-button,
+.exclusive-button {
+  font: 500 20px/100% PoppinsM;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: var(--color-green-dark);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.header-bottom-button:hover,
+.exclusive-button:hover {
+  background-color: #000000;
+  box-shadow: none;
+}
+
+.header-button {
+  padding: 11px 41px;
+  text-transform: uppercase;
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.header-bottom-button {
+  padding: 22px 60px;
+  box-shadow: 6px 33px 59px 0px #0000004D;
+  transition: box-shadow var(--animation), background-color var(--animation);
+}
+
+.selling-button {
+  padding: 16px 55px;
+}
+
+.exclusive-button {
+  padding: 22px 70px;
+  box-shadow: 0px 7px 30px 0px #0000000D;
+}
+
+.footer-form-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px 21px;
+  font: 500 20px/normal PoppinsM;
+  text-transform: uppercase;
+  color: var(--color-green-dark);
+  background-color: #A3F3BE;
+  border: none;
+  cursor: pointer;
+}

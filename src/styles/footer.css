@@ -1,0 +1,122 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-green-dark);
+  padding: 80px 0 82px 0;
+}
+
+.footer-top {
+  display: flex;
+  max-width: 1377px;
+  margin-bottom: 169px;
+}
+
+.footer-top-logo {
+  display: block;
+  font: 400 50px/normal Elephant;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 44px;
+}
+
+.footer-top-title {
+  font: 500 22px/normal RobotoSlabM;
+  color: #FFFFFF;
+  margin-bottom: 26px;
+}
+
+.footer-top-socials {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  margin-right: 217px;
+}
+
+.footer-top-socials-social svg {
+  fill: #C2EFD4;
+  transition: fill var(--animation);
+}
+
+.footer-top-socials-social:hover svg {
+  fill: #000000;
+}
+
+.footer-top-links {
+  display: flex;
+  flex-direction: column;
+  margin-right: 144px;
+}
+
+.footer-top-links:last-of-type {
+  position: relative;
+}
+
+.footer-top-links-title {
+  font: 500 22px/normal RobotoSlabM;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.footer-top-links-link {
+  font: 500 20px/normal PoppinsM;
+  text-decoration: none;
+  color: #C2EFD4;
+  margin-bottom: 18px;
+}
+
+.footer-top-links-link:hover {
+  text-decoration: underline;
+}
+
+.footer-top-links-link:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer-top-links-form {
+  position: relative;
+}
+
+.footer-top-links-form-input {
+  background-color: transparent;
+  border: 2px solid #A3F3BE;
+  font: 400 20px/normal PoppinsR;
+  color: #FFFFFF;
+  width: 487px;
+  padding: 14px 143px 13px 28px;
+  border-radius: 3px;
+}
+
+.footer-top-links-form-input::placeholder {
+  color: #FFFFFF;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+  position: relative;
+  max-width: 1377px;
+  width: 100%;
+}
+
+.footer-bottom::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  content: "";
+  width: 1051px;
+  height: 2px;
+  background-color: #A3F3BE;
+}
+
+.footer-bottom-link {
+  font: 600 20px/normal PoppinsSB;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-bottom-link:hover {
+  text-decoration: underline;
+}

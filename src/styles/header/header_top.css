@@ -1,0 +1,57 @@
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1377px;
+  width: 100%;
+  margin-bottom: 128px;
+}
+
+.header-logo {
+  font: 400 40px/normal Elephant;
+  color: var(--color-green-dark);
+  text-decoration: none;
+}
+
+.header-links {
+  display: flex;
+  gap: 184px;
+}
+
+.header-links-nav {
+  display: flex;
+  align-items: center;
+  gap: 52px;
+}
+
+.header-links-nav-link {
+  font: 500 22px/normal PoppinsM;
+  color: var(--color-green-dark);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color var(--animation);
+}
+
+.header-links-nav-link:hover {
+  color: #000000;
+}
+
+.header-links-right {
+  display: flex;
+  align-items: center;
+  gap: 57px;
+}
+
+.header-links-right-bucket,
+.header-links-right-bucket-svg {
+  width: 32px;
+  height: 32px;
+}
+
+.header-links-right-bucket-svg path {
+  transition: fill var(--animation);
+}
+
+.header-links-right-bucket-svg:hover path {
+  fill: #000000;
+}

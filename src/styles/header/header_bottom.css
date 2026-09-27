@@ -1,0 +1,31 @@
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1377px;
+  width: 100%;
+}
+
+.header-bottom-img {
+  width: 570px;
+  height: 717px;
+  background-color: #6BC785;
+  border-radius: 141px 45px 150px 82px;
+  background-image: url('./images/dots.svg'), url('./images/dots.svg');
+  background-repeat: no-repeat;
+  background-position: 24px 524px, 439px 155px;
+}
+
+.header-bottom-title {
+  max-width: 649px;
+  font: 700 86px/normal RufinaB;
+  color: var(--color-green-dark);
+  margin-bottom: 27px;
+}
+
+.header-bottom-subtitle {
+  max-width: 565px;
+  font: 500 24px/220% PoppinsM;
+  color: #267D49;
+  margin-bottom: 54px;
+}
