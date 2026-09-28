@@ -16,7 +16,7 @@ function Exclusive(): JSX.Element {
   return (
     <section className='exclusive'>
       <div className='exclusive-container'>
-        <img className='exclusive-container-img' src="../../images/exclusive.png" alt="" />
+        <img className='exclusive-container-img' src="/Rivo/images/exclusive.png" alt="" />
         <div className='exclusive-container-text'>
           <h3 className='exclusive-container-text-title'>Exclusive offer</h3>
           <p className='exclusive-container-text-subtitle'>Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals</p>

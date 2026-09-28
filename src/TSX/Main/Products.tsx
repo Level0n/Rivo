@@ -34,14 +34,14 @@ function Products(): JSX.Element {
           items.slice(activeCategory).concat(startItems).map((card, index) => {
             return (
               <a className='products-cards-card' key={card.name} href=''>
-                <img className='products-cards-card-img' src={`../../images/products/${(index + activeCategory) % items.length + 1}.png`} alt="" />
+                <img className='products-cards-card-img' src={`/Rivo/images/products/${(index + activeCategory) % items.length + 1}.png`} alt="" />
                 <h6 className='products-cards-card-title'>{card.name}</h6>
                 <div className='products-cards-card-numbers'>
                   <span className='products-cards-card-numbers-price'>${card.price.toFixed(2)}</span>
                   <div className='line'></div>
                   <span className='products-cards-card-numbers-rating'>
                     {card.rating.toFixed(1)}
-                    <img src="../../images/icons/star.svg" alt="" />
+                    <img src="/Rivo/images/icons/star.svg" alt="" />
                   </span>
                 </div>
               </a>

@@ -12,7 +12,7 @@ function HeaderBottom(): JSX.Element {
           <button className='header-bottom-button'>Explore Now</button>
         </a>
       </div>
-      <img className='header-bottom-img' src="../../images/titlephoto.png" alt="" />
+      <img className='header-bottom-img' src="/Rivo/images/titlephoto.png" alt="" />
     </section>
   )
 }

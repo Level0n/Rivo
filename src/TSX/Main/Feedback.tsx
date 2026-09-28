@@ -50,7 +50,7 @@ function Feedback(): JSX.Element {
           {blocks.map((block, index) => {
             return (
               <div className='feedback-blocks-block' key={index}>
-                <img className='feedback-blocks-block-img' src="../../images/icons/quotes.svg" alt="" />
+                <img className='feedback-blocks-block-img' src="/Rivo/images/icons/quotes.svg" alt="" />
                 <h5 className='feedback-blocks-block-title'>{block.title}</h5>
                 <p className='feedback-blocks-block-subtitle'>{block.subtitle}</p>
               </div>
@@ -60,10 +60,10 @@ function Feedback(): JSX.Element {
       </div>
       <div className='feedback-arrows'>
         <div className='feedback-arrows-left' onClick={goLeft}>
-          <img src="../../images/icons/left.svg" alt="" />
+          <img src="/Rivo/images/icons/left.svg" alt="" />
         </div>
         <div className='feedback-arrows-right' onClick={goRight}>
-          <img src="../../images/icons/right.svg" alt="" />
+          <img src="/Rivo/images/icons/right.svg" alt="" />
         </div>
       </div>
     </section>
