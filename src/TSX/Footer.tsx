@@ -3,7 +3,7 @@ import type { JSX } from 'react';
 
 function Footer(): JSX.Element {
   return (
-    <div className='footer'>
+    <footer className='footer'>
       <div className='footer-top'>
         <div>
           <a className='footer-top-logo' href="">Rivo</a>
@@ -53,7 +53,7 @@ function Footer(): JSX.Element {
         <a className='footer-bottom-link' href="">Privacy</a>
         <a className='footer-bottom-link' href="">Cookies</a>
       </div>
-    </div>
+    </footer>
   )
 }
 

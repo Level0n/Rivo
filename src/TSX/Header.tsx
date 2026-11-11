@@ -1,6 +1,6 @@
 import HeaderTop from './Header/HeaderTop';
 import HeaderBottom from './Header/HeaderBottom';
-import '../styles/header/header.css';
+import '../styles/header.css';
 import type { JSX } from 'react';
 
 function Header(): JSX.Element {
