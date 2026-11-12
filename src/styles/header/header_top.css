@@ -55,3 +55,33 @@
 .header-links-right-bucket-svg:hover path {
   fill: #000000;
 }
+
+@media (max-width: 1100px) {
+  .header-links {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-links {
+    gap: 25px;
+  }
+
+  .header-links-nav {
+    gap: 25px;
+  }
+
+  .header-links-nav-link {
+    font-size: 16px;
+  }
+
+  .header-links-right {
+    gap: 25px;
+  }
+
+  .header-links-right-bucket,
+  .header-links-right-bucket-svg {
+    width: 20px;
+    height: 20px;
+  }
+}
