@@ -5,7 +5,7 @@ import type { JSX } from 'react';
 function HeaderBottom(): JSX.Element {
   return (
     <section className='header-bottom'>
-      <div>
+      <div className='header-bottom-container'>
         <h1 className='header-bottom-title'>Discover and Find Your Own Fashion!</h1>
         <p className='header-bottom-subtitle'>Explore our curated collection of stylish clothing and accessories tailored to your unique taste.</p>
         <a href="">

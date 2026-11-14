@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Header />
-      <Main />
-      <Footer />
+      {/* <Main />
+      <Footer /> */}
     </>
   )
 }

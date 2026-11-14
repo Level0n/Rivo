@@ -71,4 +71,16 @@
     font-size: 16px;
     padding: 7px 20px;
   }
+
+  .header-bottom-button {
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-button {
+    font-size: 12px;
+    padding: 5px 20px;
+  }
 }

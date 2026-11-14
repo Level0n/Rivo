@@ -29,3 +29,33 @@
   color: #267D49;
   margin-bottom: 54px;
 }
+
+@media (max-width: 1400px) {
+  .header-bottom {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .header-bottom-title {
+    font-size: 50px;
+  }
+
+  .header-bottom-subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .header-bottom {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .header-bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
