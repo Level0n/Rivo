@@ -85,3 +85,38 @@
   height: 27px;
   background-color: black;
 }
+
+@media (max-width: 1400px) {
+  .best {
+    padding: 0 15px;
+  }
+
+  .best-title {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+
+  .best-cards-card-img {
+    width: 287px;
+    height: 377px;
+    margin-bottom: 34px;
+  }
+
+  .best-cards-card-title {
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+
+  .best-cards-card-numbers {
+    max-width: 153px;
+  }
+
+  .best-cards-card-numbers-price {
+    font-size: 18px;
+  }
+
+  .best-cards-card-numbers-rating {
+    gap: 6px;
+    font-size: 18px;
+  }
+}

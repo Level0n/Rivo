@@ -83,4 +83,9 @@
     font-size: 12px;
     padding: 5px 20px;
   }
+
+  .header-bottom-button {
+    font-size: 12px;
+    padding: 12px 24px;
+  }
 }

@@ -59,3 +59,17 @@
     text-align: center;
   }
 }
+
+@media (max-width: 600px) {
+  .header-bottom-img {
+    display: none;
+  }
+
+  .header-bottom-title {
+    font-size: 36px;
+  }
+
+  .header-bottom-subtitle {
+    font-size: 16px;
+  }
+}
