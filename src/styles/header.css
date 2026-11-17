@@ -7,3 +7,10 @@
   background-color: #C2EFD4;
   margin-bottom: 114px;
 }
+
+@media (max-width: 600px) {
+  .header {
+    padding-bottom: 83px;
+    margin-bottom: 57px;
+  }
+}

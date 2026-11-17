@@ -14,6 +14,7 @@
 .best-subtitle {
   font: 500 22px/normal PoppinsM;
   color: var(--color-green-dark);
+  text-align: center;
   margin-bottom: 80px;
 }
 
@@ -96,9 +97,87 @@
     margin-bottom: 25px;
   }
 
+  .best-subtitle {
+    margin-bottom: 53px;
+  }
+
   .best-cards-card-img {
-    width: 287px;
-    height: 377px;
+    width: 274px;
+    height: 361px;
+    margin-bottom: 34px;
+  }
+
+  .best-cards-card-title {
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+
+  .best-cards-card-numbers {
+    max-width: 153px;
+  }
+
+  .best-cards-card-numbers-price {
+    font-size: 18px;
+  }
+
+  .best-cards-card-numbers-rating {
+    gap: 6px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .best-title {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+
+  .best-subtitle {
+    font-size: 18px;
+    margin-bottom: 53px;
+  }
+
+  .best-cards {
+    flex-direction: column;
+  }
+
+  .best-cards-card-img {
+    width: 430px;
+    height: 566px;
+    margin-bottom: 51px;
+  }
+
+  .best-cards-card-title {
+    font-size: 22px;
+    margin-bottom: 11px;
+  }
+
+  .best-cards-card-numbers {
+    max-width: 229px;
+  }
+
+  .best-cards-card-numbers-price {
+    font-size: 22px;
+  }
+
+  .best-cards-card-numbers-rating {
+    gap: 9px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 450px) {
+  .best-title {
+    font-size: 36px;
+  }
+
+  .best-subtitle {
+    font-size: 16px;
+  }
+
+  .best-cards-card-img {
+    width: 274px;
+    height: 361px;
     margin-bottom: 34px;
   }
 
