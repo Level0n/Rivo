@@ -90,3 +90,54 @@
   height: 131px;
   background-color: #DFFBEA80;
 }
+
+@media (max-width: 1000px) {
+  .exclusive-container {
+    padding: 0 15px;
+  }
+
+  .exclusive-container-img {
+    display: none;
+  }
+
+  .exclusive-container-dots {
+    display: none;
+  }
+
+  .exclusive-container-square {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .exclusive {
+    margin-bottom: 145px;
+  }
+
+  .exclusive-container-text-title {
+    font-size: 36px;
+  }
+
+  .exclusive-container-text-subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 450px) {
+  .exclusive-container-text-time {
+    gap: 20px;
+  }
+
+  .exclusive-container-text-time-block {
+    width: 75px;
+    height: 75px;
+  }
+
+  .exclusive-container-text-time-block-number {
+    font-size: 24px;
+  }
+
+  .exclusive-container-text-time-block-string {
+    font-size: 12px;
+  }
+}

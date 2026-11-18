@@ -127,14 +127,12 @@
 }
 
 @media (max-width: 1000px) {
-  .best-title {
-    font-size: 50px;
-    margin-bottom: 25px;
+  .best {
+    margin-bottom: 125px;
   }
 
   .best-subtitle {
     font-size: 18px;
-    margin-bottom: 53px;
   }
 
   .best-cards {
