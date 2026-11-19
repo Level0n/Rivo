@@ -13,7 +13,7 @@ function Main(): JSX.Element {
       <Products />
       <Exclusive />
       <Designer />
-      {/* <Feedback /> */}
+      <Feedback />
     </main>
   )
 }

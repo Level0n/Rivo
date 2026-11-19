@@ -8,6 +8,7 @@
 .designer-title {
   font: 500 50px/normal RobotoSlabM;
   color: var(--color-green-dark);
+  text-align: center;
   margin-bottom: 51px;
 }
 
@@ -23,7 +24,7 @@
   justify-content: center;
   gap: 44px;
   max-width: 1377px;
-  width: 100%;
+  
 }
 
 .designer-blocks-block {
@@ -80,6 +81,10 @@
 }
 
 @media (max-width: 1000px) {
+  .designer {
+    margin-bottom: 166px;
+  }
+
   .designer-title {
     font-size: 50px;
   }
@@ -87,6 +92,56 @@
   .designer-subtitle {
     font-size: 18px;
     max-width: 600px;
+  }
+
+  .designer-blocks {
+    gap: 30px;
+  }
+
+  .designer-blocks-block-img {
+    width: 215px;
+    height: 283px;
+  }
+
+  .designer-blocks-block-title {
+    font-size: 18px;
+  }
+
+  .designer-blocks-block-subtitle {
+    font-size: 14px;
+    max-width: 215px;
+  }
+}
+
+@media (max-width: 750px) {
+  .designer-blocks {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .designer-blocks-block-img {
+    width: 430px;
+    height: 566px;
+  }
+
+  .designer-blocks-block-title {
+    font-size: 30px;
+  }
+
+  .designer-blocks-block-subtitle {
+    font-size: 22px;
+    max-width: 430px;
+  }
+}
+
+@media (max-width: 500px) {
+  .designer-title {
+    font-size: 36px;
+  }
+
+  .designer-subtitle {
+    font-size: 16px;
+    max-width: 400px;
   }
 
   .designer-blocks {

@@ -19,7 +19,8 @@
 .feedback-blocks-slide {
   max-width: 1377px;
   overflow: hidden;
-  margin-bottom: 125px;
+  padding-bottom: 35px;
+  margin-bottom: 90px;
 }
 
 .feedback-blocks-block {
@@ -75,4 +76,20 @@
 
 .feedback-arrows-right {
   background-color: #C2EFD4;
+}
+
+@media (max-width: 1400px) {
+  .feedback {
+    padding: 0 15px;
+  }
+
+  .feedback-blocks-slide {
+    max-width: 905px;
+  }
+}
+
+@media (max-width: 950px) {
+  .feedback-blocks-slide {
+    max-width: 474px;
+  }
 }

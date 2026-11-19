@@ -28,15 +28,21 @@ function Feedback(): JSX.Element {
   }
 
   function goRight(): void {
+    let limit: number = 2;
+    if (window.innerWidth <= 1400) limit = 1;
+    if (window.innerWidth <= 950) limit = 0;
     if (slide.current !== null) {
-      i = (i + 1) % (blocks.length - 2);
+      i = (i + 1) % (blocks.length - limit);
       goSlide();
     }
   }
 
   function goLeft(): void {
+    let limit: number = 3;
+    if (window.innerWidth <= 1400) limit = 2;
+    if (window.innerWidth <= 950) limit = 1;
     if (slide.current !== null) {
-      if (i === 0) i = blocks.length - 3;
+      if (i === 0) i = blocks.length - limit;
       else i--;
       goSlide();
     }
