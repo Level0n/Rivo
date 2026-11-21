@@ -22,8 +22,10 @@ function Feedback(): JSX.Element {
   let i: number = 0;
 
   function goSlide(): void {
+    let lengthMove: number = 472;
+    if (window.innerWidth <= 500) lengthMove = 311;
     if (slide.current !== null) {
-      slide.current.style.transform = `translateX(-${472 * i}px)`;
+      slide.current.style.transform = `translateX(-${lengthMove * i}px)`;
     }
   }
 
