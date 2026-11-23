@@ -49,6 +49,7 @@ function Footer(): JSX.Element {
         </div>
       </div>
       <div className='footer-bottom'>
+        <div className='footer-bottom-line'></div>
         <a className='footer-bottom-link' href="">Terms</a>
         <a className='footer-bottom-link' href="">Privacy</a>
         <a className='footer-bottom-link' href="">Cookies</a>
