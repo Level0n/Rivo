@@ -26,26 +26,28 @@ function Footer(): JSX.Element {
             </a>
           </div>
         </div>
-        <div className='footer-top-links'>
-          <h6 className='footer-top-links-title'>SHOP</h6>
-          <a className='footer-top-links-link' href="">Products</a>
-          <a className='footer-top-links-link' href="">Overview</a>
-          <a className='footer-top-links-link' href="">Pricing</a>
-          <a className='footer-top-links-link' href="">Releases</a>
-        </div>
-        <div className='footer-top-links'>
-          <h6 className='footer-top-links-title'>Company</h6>
-          <a className='footer-top-links-link' href="">About us</a>
-          <a className='footer-top-links-link' href="">Contact</a>
-          <a className='footer-top-links-link' href="">News</a>
-          <a className='footer-top-links-link' href="">Support</a>
-        </div>
-        <div className='footer-top-links'>
-          <h6 className='footer-top-links-title'>Stay up to date</h6>
-          <form className='footer-top-links-form' action="">
-            <input className='footer-top-links-form-input' type="text" placeholder='Enter your email' name='forEmail'/>
-            <button className='footer-form-button'>Submit</button>
-          </form>
+        <div className='footer-top-container-links'>
+          <div className='footer-top-links'>
+            <h6 className='footer-top-links-title'>SHOP</h6>
+            <a className='footer-top-links-link' href="">Products</a>
+            <a className='footer-top-links-link' href="">Overview</a>
+            <a className='footer-top-links-link' href="">Pricing</a>
+            <a className='footer-top-links-link' href="">Releases</a>
+          </div>
+          <div className='footer-top-links'>
+            <h6 className='footer-top-links-title'>Company</h6>
+            <a className='footer-top-links-link' href="">About us</a>
+            <a className='footer-top-links-link' href="">Contact</a>
+            <a className='footer-top-links-link' href="">News</a>
+            <a className='footer-top-links-link' href="">Support</a>
+          </div>
+          <div className='footer-top-links'>
+            <h6 className='footer-top-links-title'>Stay up to date</h6>
+            <form className='footer-top-links-form' action="">
+              <input className='footer-top-links-form-input' type="text" placeholder='Enter your email' name='forEmail'/>
+              <button className='footer-form-button'>Submit</button>
+            </form>
+          </div>
         </div>
       </div>
       <div className='footer-bottom'>
