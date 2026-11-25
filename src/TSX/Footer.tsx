@@ -5,7 +5,7 @@ function Footer(): JSX.Element {
   return (
     <footer className='footer'>
       <div className='footer-top'>
-        <div>
+        <div className='footer-top-logoandsocials'>
           <a className='footer-top-logo' href="">Rivo</a>
           <h6 className='footer-top-title'>Social Media</h6>
           <div className='footer-top-socials'>

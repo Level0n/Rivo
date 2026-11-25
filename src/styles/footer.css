@@ -12,6 +12,12 @@
   margin-bottom: 169px;
 }
 
+.footer-top-logoandsocials {
+  display: flex;
+  flex-direction: column;
+  margin-right: 217px;
+}
+
 .footer-top-logo {
   display: block;
   font: 400 50px/normal Elephant;
@@ -30,7 +36,6 @@
   display: flex;
   gap: 36px;
   align-items: center;
-  margin-right: 217px;
 }
 
 .footer-top-socials-social svg {
@@ -125,9 +130,12 @@
     padding: 80px 15px 82px 15px;
   }
 
+  .footer-top-logoandsocials {
+    margin-right: 109px;
+  }
+
   .footer-top-socials {
     gap: 24px;
-    margin-right: 109px;
   }
 
   .footer-top-socials-social svg {
@@ -163,5 +171,44 @@
 
   .footer-bottom-link {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 85px;
+  }
+
+  .footer-top-logoandsocials {
+    margin-right: 0;
+  }
+
+  .footer-bottom-line {
+    width: 389px;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer-top-container-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-top-logoandsocials {
+    align-items: center;
+  }
+
+  .footer-top-links-form-input {
+    width: 290px;
+    font-size: 14px;
+    padding: 9px 93px 9px 15px;
+  }
+
+  .footer-bottom-line {
+    display: none;
   }
 }
