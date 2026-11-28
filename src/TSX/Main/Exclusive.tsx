@@ -11,7 +11,7 @@ function Exclusive(): JSX.Element {
     const timerId = setInterval(() => setMinutes(prev => prev - 1), 60000);
 
     return () => clearInterval(timerId);
-  }, []);
+  }, [minutes]);
 
   return (
     <section className='exclusive'>

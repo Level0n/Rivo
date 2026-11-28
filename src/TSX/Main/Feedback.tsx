@@ -1,5 +1,5 @@
 import '../../styles/main/feedback.css';
-import { useRef } from 'react';
+import { useState } from 'react';
 import type { JSX } from 'react';
 
 type FeedbackBlock = {
@@ -17,44 +17,31 @@ function Feedback(): JSX.Element {
     {title: 'Olivia Martinez', subtitle: "I had a great experience shopping on this website. The clothes I bought are fashionable and comfortable. Highly satisfied!"}
   ];
 
-  const slide = useRef<HTMLDivElement>(null);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
 
-  let i: number = 0;
-
-  function goSlide(): void {
-    let lengthMove: number = 472;
-    if (window.innerWidth <= 500) lengthMove = 311;
-    if (slide.current !== null) {
-      slide.current.style.transform = `translateX(-${lengthMove * i}px)`;
-    }
-  }
+  let lengthMove: number = 472;
+  if (window.innerWidth <= 500) lengthMove = 311;
 
   function goRight(): void {
     let limit: number = 2;
     if (window.innerWidth <= 1400) limit = 1;
     if (window.innerWidth <= 950) limit = 0;
-    if (slide.current !== null) {
-      i = (i + 1) % (blocks.length - limit);
-      goSlide();
-    }
+    setCurrentIndex(prev => (prev + 1) % (blocks.length - limit));
   }
 
   function goLeft(): void {
     let limit: number = 3;
     if (window.innerWidth <= 1400) limit = 2;
     if (window.innerWidth <= 950) limit = 1;
-    if (slide.current !== null) {
-      if (i === 0) i = blocks.length - limit;
-      else i--;
-      goSlide();
-    }
+    if (currentIndex === 0) setCurrentIndex(blocks.length - limit);
+    else setCurrentIndex(prev => prev - 1);
   }
 
   return (
     <section className='feedback'>
       <h2 className='feedback-title'>Feedback Corner</h2>
       <div className='feedback-blocks-slide'>
-        <div className='feedback-blocks' ref={slide}>
+        <div className='feedback-blocks' style={{ transform: `translateX(-${lengthMove * currentIndex}px)` }}>
           {blocks.map((block, index) => {
             return (
               <div className='feedback-blocks-block' key={index}>
